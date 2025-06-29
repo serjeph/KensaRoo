@@ -1,0 +1,53 @@
+﻿[
+  {
+    "ProfileName": "CH-100x50x5-JIS",
+    "ProfileType": "Channel",
+    "Standard": "JIS",
+    "MaterialGrade": "SS400",
+    "UnitWeight": 9.3,
+    "Height": 100,
+    "Width": 50,
+    "WebThickness": 5,
+    "FlangeThickness": 7.5,
+    "InnerRadius": 7.5,
+    "ToeRadius": 4
+  },
+  {
+    "ProfileName": "L-50x50x6-JIS",
+    "ProfileType": "Angle",
+    "Standard": "JIS",
+    "MaterialGrade": "SS400",
+    "UnitWeight": 4.43,
+    "LegSizeA": 50,
+    "LegSizeB": 50,
+    "Thickness": 6,
+    "InnerRadius": 7,
+    "ToeRadius": 3.5
+  },
+  {
+    "ProfileName": "P-42.7x2.3-JIS",
+    "ProfileType": "Pipe",
+    "Standard": "SGP",
+    "MaterialGrade": "SGP",
+    "UnitWeight": 2.33,
+    "OuterDiameter": 42.7,
+    "WallThickness": 2.3
+  },
+  {
+    "ProfileName": "FB-50x6-JIS",
+    "ProfileType": "FlatBar",
+    "Standard": "JIS",
+    "MaterialGrade": "SS400",
+    "UnitWeight": 2.36,
+    "Width": 50,
+    "Thickness": 6
+  },
+  {
+    "ProfileName": "RB-19-JIS",
+    "ProfileType": "RoundBar",
+    "Standard": "JIS",
+    "MaterialGrade": "SS400",
+    "UnitWeight": 2.22,
+    "Diameter": 19
+  }
+]
