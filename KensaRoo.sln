@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KensaRoo.Core", "KensaRoo.Core\KensaRoo.Core.csproj", "{3CD7CC71-4213-4242-9676-3063E60F86BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KensaRoo.Gha", "KensaRoo.Gha\KensaRoo.Gha.csproj", "{9420CD49-1B44-49D5-BFB3-202DFBF76055}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CD7CC71-4213-4242-9676-3063E60F86BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD7CC71-4213-4242-9676-3063E60F86BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD7CC71-4213-4242-9676-3063E60F86BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD7CC71-4213-4242-9676-3063E60F86BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9420CD49-1B44-49D5-BFB3-202DFBF76055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9420CD49-1B44-49D5-BFB3-202DFBF76055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9420CD49-1B44-49D5-BFB3-202DFBF76055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9420CD49-1B44-49D5-BFB3-202DFBF76055}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
