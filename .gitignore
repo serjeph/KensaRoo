@@ -20,3 +20,6 @@ bld/
 
 # Rider
 .idea/
+
+# Git
+.git/

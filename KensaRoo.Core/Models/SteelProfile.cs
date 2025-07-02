@@ -5,16 +5,16 @@ namespace KensaRoo.Core.Models;
 public class SteelProfile
 {
     [JsonPropertyName("ProfileName")]
-    public string ProfileName { get; set; }
+    public required string ProfileName { get; set; }
     
     [JsonPropertyName("ProfileType")]
-    public string ProfileType { get; set; }
+    public required string ProfileType { get; set; }
     
     [JsonPropertyName("Standard")]
-    public string Standard { get; set; }
+    public required string Standard { get; set; }
     
     [JsonPropertyName("MaterialGrade")]
-    public string MaterialGrade { get; set; }
+    public required string MaterialGrade { get; set; }
     
     [JsonPropertyName("UnitWeight")]
     public double UnitWeight { get; set; }

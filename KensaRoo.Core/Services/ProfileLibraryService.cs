@@ -9,9 +9,9 @@ namespace KensaRoo.Core.Services;
 
 public class ProfileLibraryService
 {
-    public List<SteelProfile> Profiles { get; set; } = new();
+    public List<SteelProfile> Profiles { get; private set; } = new();
 
-    public async Task<(bool Success, string ErrorMessage)> LoadFromFileAsync(string filePath)
+    public (bool Success, string ErrorMessage) LoadFromFile(string filePath)
     {
         if (!File.Exists(filePath))
         {
@@ -24,8 +24,9 @@ public class ProfileLibraryService
             {
                 AllowTrailingCommas = true,
             };
-            await using var stream = File.OpenRead(filePath);
-            var profiles = await JsonSerializer.DeserializeAsync<List<SteelProfile>>(stream, options);
+            string jsonString = File.ReadAllText(filePath);
+            var profiles = JsonSerializer.Deserialize<List<SteelProfile>>(jsonString, options);
+            
             Profiles = profiles ?? new List<SteelProfile>();
             return (true, string.Empty);
         }
